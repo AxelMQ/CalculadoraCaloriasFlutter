@@ -1,0 +1,34 @@
+name: calculadora_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.1
+  google_fonts: ^4.0.4
+  provider: ^6.0.5
+  flutter_native_splash: ^2.2.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    
+flutter_native_splash:
+  color: "#ffffff" # El color de fondo de la splash screen
+  image: assets/splash.png # La imagen de la splash screen
+  android: true # Habilitar para Android
+  ios: true # Habilitar para iOS
